@@ -1,0 +1,14 @@
+server.error:
+  include-message: always
+spring:
+  active:
+    profile: test
+  datasource:
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: sa
+    platform: h2
+  jpa:
+    hibernate.ddl-auto: create
+    show-sql: true
+  h2.console.enabled: true
